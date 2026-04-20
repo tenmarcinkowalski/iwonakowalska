@@ -76,25 +76,25 @@ export default function About() {
           <div className="flex flex-col gap-8">
             <FadeIn delay={0.3}>
               <p className="font-[family-name:var(--font-playfair)] text-[#4A2C0A] text-lg italic leading-relaxed">
-                &ldquo;Jestem terapeutką żywieniową, psychodietetykiem i specjalistką dietetyki według Tradycyjnej Medycyny Chińskiej.&rdquo;
+                Mam na imię Iwona i jestem terapeutką żywieniową, podążającą ścieżką odżywiania według medycyny chińskiej.
               </p>
             </FadeIn>
 
             <FadeIn delay={0.4}>
               <p className="font-[family-name:var(--font-playfair)] text-[#4A2C0A]/80 leading-relaxed">
-                Pracuję w nurcie medycyny chińskiej (TCM), łącząc współczesną wiedzę o fizjologii z mądrością 5 Przemian. Pomagam kobietom odzyskać energię, uregulować cykl, zmniejszyć PMS, poprawić trawienie i poczuć się &ldquo;u siebie&rdquo;.
+                Jest to podejście, w którym indywidualne spojrzenie na każdego człowieka oraz poszukiwanie jego własnej drogi żywieniowej pomagają odzyskać harmonię i równowagę w ciele.
               </p>
             </FadeIn>
 
             <FadeIn delay={0.5}>
               <p className="font-[family-name:var(--font-playfair)] text-[#4A2C0A]/80 leading-relaxed">
-                Pracuję z osobami, które chcą odzyskać energię i komfort termiczny, zmniejszyć PMS, poprawić trawienie i żyć w zgodzie z naturalnym rytmem ciała. Szczególnie skupiam się na osobach z chorobami autoimmunologicznymi.
+                Skupiam się na tym, co ciało jest w stanie przyjąć i przekształcić, aby pomóc Ci w powrocie do zdrowia. Wspieram leczenie chorób odpowiednim żywieniem i zmianą nawyków oraz pokazuję, jak im zapobiegać, zanim jeszcze się pojawią.
               </p>
             </FadeIn>
 
             <FadeIn delay={0.55}>
               <p className="font-[family-name:var(--font-playfair)] text-[#4A2C0A]/80 leading-relaxed">
-                Prowadziłam wykłady i warsztaty m.in. w Instytucie Zielarstwa Polskiego. Łączę klasyczną wiedzę TCM z praktyką codziennej kuchni.
+                Pracuję głównie z osobami z chorobami autoimmunologicznymi. Ukończone studia z psychodietetyki oraz kurs terapii skoncentrowanej na rozwiązaniach pozwalają mi uwzględniać również psychologiczny aspekt pracy z pacjentem. Zapraszam na konsultacje wszystkie osoby, które chcą zmienić nawyki żywieniowe, odzyskać dobre samopoczucie i równowagę w odżywianiu — bez liczenia kalorii.
               </p>
             </FadeIn>
 

@@ -53,7 +53,7 @@ export default function Hero() {
           initial={{ opacity: 0, y: 20 }}
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.8, delay: 0.2 }}
-          className="font-[family-name:var(--font-cinzel)] text-[#FAF7F2] text-xs md:text-sm tracking-[0.4em] uppercase mb-8"
+          className="font-[family-name:var(--font-cinzel)] text-[#FAF7F2] text-3xl md:text-5xl lg:text-6xl font-light leading-tight tracking-wide mb-4"
         >
           Terapia żywieniowa
         </motion.p>
@@ -62,11 +62,9 @@ export default function Hero() {
           initial={{ opacity: 0, y: 30 }}
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.9, delay: 0.4 }}
-          className="font-[family-name:var(--font-cinzel)] text-white text-3xl md:text-5xl lg:text-6xl font-light leading-tight tracking-wide mb-8"
+          className="font-[family-name:var(--font-cinzel)] text-white/90 text-xl md:text-2xl lg:text-3xl font-light leading-tight tracking-[0.08em] mb-8"
         >
-          wg Medycyny
-          <br />
-          <span className="font-semibold">Chińskiej</span>
+          według medycyny chińskiej
         </motion.h1>
 
         <motion.div
@@ -80,9 +78,9 @@ export default function Hero() {
           initial={{ opacity: 0, y: 20 }}
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.8, delay: 0.9 }}
-          className="font-[family-name:var(--font-playfair)] text-white/80 text-lg md:text-xl italic leading-relaxed max-w-2xl mx-auto mb-12"
+          className="font-[family-name:var(--font-playfair)] text-white/90 text-xl md:text-2xl italic leading-relaxed max-w-3xl mx-auto mb-12"
         >
-          Holistyczne wsparcie zdrowia poprzez odżywianie, rytm, sezonowość i równowagę energetyczną.
+          Holistyczne wsparcie zdrowia poprzez prawidłowe odżywianie, rytm, sezonowość i równowagę energetyczną.
         </motion.p>
 
         <motion.div
@@ -93,13 +91,13 @@ export default function Hero() {
         >
           <button
             onClick={scrollToContact}
-            className="font-[family-name:var(--font-cinzel)] text-xs tracking-[0.25em] uppercase px-10 py-4 bg-[#8B5E3C] text-white hover:bg-[#4A2C0A] transition-all duration-300"
+            className="font-[family-name:var(--font-cinzel)] text-sm tracking-[0.2em] uppercase px-10 py-4 bg-[#8B5E3C] text-white hover:bg-[#4A2C0A] transition-all duration-300"
           >
             Umów konsultację
           </button>
           <button
             onClick={scrollToAbout}
-            className="font-[family-name:var(--font-cinzel)] text-xs tracking-[0.25em] uppercase px-10 py-4 border border-white/60 text-white/90 hover:border-white hover:text-white transition-all duration-300"
+            className="font-[family-name:var(--font-cinzel)] text-sm tracking-[0.2em] uppercase px-10 py-4 border border-white/80 text-white hover:border-white hover:text-white transition-all duration-300"
           >
             Dowiedz się więcej
           </button>

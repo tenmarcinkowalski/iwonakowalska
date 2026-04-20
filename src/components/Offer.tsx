@@ -85,14 +85,14 @@ export default function Offer() {
       <div className="max-w-6xl mx-auto px-6">
         {/* Heading */}
         <FadeIn className="text-center mb-16">
-          <p className="font-[family-name:var(--font-cinzel)] text-[#8B5E3C] text-xs tracking-[0.4em] uppercase mb-4">
+          <p className="font-[family-name:var(--font-cinzel)] text-[#8B5E3C] text-sm tracking-[0.35em] uppercase mb-4">
             Jak mogę Ci pomóc
           </p>
-          <h2 className="font-[family-name:var(--font-cinzel)] text-[#1B4332] text-3xl md:text-4xl font-light tracking-wide">
+          <h2 className="font-[family-name:var(--font-cinzel)] text-[#1B4332] text-4xl md:text-5xl font-light tracking-wide">
             Oferta
           </h2>
           <div className="w-12 h-px bg-[#8B5E3C] mx-auto mt-6 mb-6" />
-          <p className="font-[family-name:var(--font-playfair)] text-[#4A2C0A]/70 italic max-w-xl mx-auto">
+          <p className="font-[family-name:var(--font-playfair)] text-[#4A2C0A]/90 text-lg italic max-w-2xl mx-auto leading-relaxed">
             Każda współpraca jest dostosowana indywidualnie do Twoich potrzeb i aktualnego stanu energetycznego.
           </p>
         </FadeIn>
@@ -130,15 +130,15 @@ export default function Offer() {
 
                 {/* Title */}
                 <h3
-                  className={`font-[family-name:var(--font-cinzel)] text-base font-semibold tracking-wide mb-1 ${
+                  className={`font-[family-name:var(--font-cinzel)] text-lg font-semibold tracking-wide mb-1 ${
                     service.featured ? "text-white" : "text-[#1B4332]"
                   }`}
                 >
                   {service.title}
                 </h3>
                 <p
-                  className={`font-[family-name:var(--font-playfair)] text-sm italic mb-4 ${
-                    service.featured ? "text-white/60" : "text-[#8B5E3C]"
+                  className={`font-[family-name:var(--font-playfair)] text-base italic mb-4 ${
+                    service.featured ? "text-white/85" : "text-[#8B5E3C]"
                   }`}
                 >
                   {service.subtitle}
@@ -146,8 +146,8 @@ export default function Offer() {
 
                 {/* Description */}
                 <p
-                  className={`font-[family-name:var(--font-playfair)] text-sm leading-relaxed flex-grow ${
-                    service.featured ? "text-white/80" : "text-[#4A2C0A]/70"
+                  className={`font-[family-name:var(--font-playfair)] text-base leading-relaxed flex-grow ${
+                    service.featured ? "text-white/90" : "text-[#4A2C0A]/90"
                   }`}
                 >
                   {service.description}
@@ -165,7 +165,7 @@ export default function Offer() {
                     <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5}
                       d="M12 8v4l3 3m6-3a9 9 0 11-18 0 9 9 0 0118 0z" />
                   </svg>
-                  <span className="font-[family-name:var(--font-cinzel)] text-[10px] tracking-[0.2em] uppercase">
+                  <span className="font-[family-name:var(--font-cinzel)] text-xs tracking-[0.2em] uppercase font-semibold">
                     {service.duration}
                   </span>
                 </div>
@@ -178,7 +178,7 @@ export default function Offer() {
         <FadeIn delay={0.5} className="text-center mt-14">
           <button
             onClick={scrollToContact}
-            className="font-[family-name:var(--font-cinzel)] text-xs tracking-[0.25em] uppercase px-10 py-4 bg-[#1B4332] text-white hover:bg-[#2D6A4F] transition-all duration-300"
+            className="font-[family-name:var(--font-cinzel)] text-sm tracking-[0.2em] uppercase px-10 py-4 bg-[#1B4332] text-white hover:bg-[#2D6A4F] transition-all duration-300"
           >
             Skontaktuj się
           </button>

@@ -29,7 +29,7 @@ export default function Navbar() {
     <nav
       className={`fixed top-0 left-0 right-0 z-50 transition-all duration-500 ${
         scrolled
-          ? "bg-[#FAF7F2]/95 backdrop-blur-sm shadow-sm"
+          ? "bg-[#1B4332]/95 backdrop-blur-sm shadow-sm"
           : "bg-transparent"
       }`}
     >
@@ -45,15 +45,15 @@ export default function Navbar() {
           className="flex flex-col"
         >
           <span
-            className={`font-[family-name:var(--font-cinzel)] text-base tracking-[0.25em] uppercase font-semibold transition-colors duration-500 ${
-              scrolled ? "text-[#1B4332]" : "text-white"
+            className={`font-[family-name:var(--font-cinzel)] text-lg tracking-[0.2em] uppercase font-semibold transition-colors duration-500 ${
+              scrolled ? "text-white" : "text-white"
             }`}
           >
             Iwona Kowalska
           </span>
           <span
-            className={`font-[family-name:var(--font-playfair)] text-sm tracking-[0.15em] italic transition-colors duration-500 ${
-              scrolled ? "text-[#8B5E3C]" : "text-white/80"
+            className={`font-[family-name:var(--font-playfair)] text-base tracking-[0.1em] italic transition-colors duration-500 ${
+              scrolled ? "text-white/85" : "text-white/85"
             }`}
           >
             Terapia żywieniowa TCM
@@ -66,8 +66,8 @@ export default function Navbar() {
             <li key={link.href}>
               <button
                 onClick={() => handleNavClick(link.href)}
-                className={`font-[family-name:var(--font-cinzel)] text-sm tracking-[0.2em] uppercase transition-colors duration-300 hover:text-[#2D6A4F] ${
-                  scrolled ? "text-[#4A2C0A]" : "text-white/90 hover:text-white"
+                className={`font-[family-name:var(--font-cinzel)] text-base tracking-[0.18em] uppercase font-semibold transition-colors duration-300 ${
+                  scrolled ? "text-white hover:text-[#FAF7F2]" : "text-white hover:text-[#FAF7F2]"
                 }`}
               >
                 {link.label}
@@ -77,10 +77,10 @@ export default function Navbar() {
           <li>
             <button
               onClick={() => handleNavClick("#kontakt")}
-              className={`font-[family-name:var(--font-cinzel)] text-sm tracking-[0.2em] uppercase px-6 py-2.5 border transition-all duration-300 ${
+                className={`font-[family-name:var(--font-cinzel)] text-sm tracking-[0.2em] uppercase px-6 py-2.5 border font-semibold transition-all duration-300 ${
                 scrolled
-                  ? "border-[#1B4332] text-[#1B4332] hover:bg-[#1B4332] hover:text-white"
-                  : "border-white text-white hover:bg-white hover:text-[#1B4332]"
+                    ? "border-white text-white hover:bg-white hover:text-[#1B4332]"
+                    : "border-white text-white hover:bg-white hover:text-[#1B4332]"
               }`}
             >
               Umów konsultację
@@ -114,8 +114,8 @@ export default function Navbar() {
 
       {/* Mobile menu */}
       <div
-        className={`md:hidden bg-[#FAF7F2] transition-all duration-300 overflow-hidden ${
-          menuOpen ? "max-h-80 border-b border-[#EDE6D6]" : "max-h-0"
+        className={`md:hidden bg-[#1B4332] transition-all duration-300 overflow-hidden ${
+          menuOpen ? "max-h-80 border-b border-white/20" : "max-h-0"
         }`}
       >
         <ul className="flex flex-col px-6 py-4 gap-4">
@@ -123,7 +123,7 @@ export default function Navbar() {
             <li key={link.href}>
               <button
                 onClick={() => handleNavClick(link.href)}
-                className="font-[family-name:var(--font-cinzel)] text-xs tracking-[0.2em] uppercase text-[#4A2C0A] hover:text-[#1B4332] transition-colors w-full text-left py-1"
+                className="font-[family-name:var(--font-cinzel)] text-sm tracking-[0.2em] uppercase font-semibold text-white hover:text-[#FAF7F2] transition-colors w-full text-left py-1"
               >
                 {link.label}
               </button>
@@ -132,7 +132,7 @@ export default function Navbar() {
           <li>
             <button
               onClick={() => handleNavClick("#kontakt")}
-              className="font-[family-name:var(--font-cinzel)] text-xs tracking-[0.2em] uppercase px-5 py-2 border border-[#1B4332] text-[#1B4332] hover:bg-[#1B4332] hover:text-white transition-all w-full mt-2"
+                className="font-[family-name:var(--font-cinzel)] text-sm tracking-[0.2em] uppercase px-5 py-2 border border-white text-white hover:bg-white hover:text-[#1B4332] transition-all w-full mt-2"
             >
               Umów konsultację
             </button>

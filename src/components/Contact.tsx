@@ -108,10 +108,10 @@ export default function Contact() {
                       Email
                     </p>
                     <a
-                      href="mailto:kontakt@iwonakowalska.com"
+                      href="mailto:terapeuta.tcm@gmail.com"
                       className="font-[family-name:var(--font-playfair)] text-[#4A2C0A]/80 text-sm hover:text-[#1B4332] transition-colors"
                     >
-                      kontakt@iwonakowalska.com
+                      terapeuta.tcm@gmail.com
                     </a>
                   </div>
                 </div>

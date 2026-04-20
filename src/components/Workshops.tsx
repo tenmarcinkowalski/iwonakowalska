@@ -109,15 +109,22 @@ export default function Workshops() {
           ))}
         </div>
 
-        {/* Quote / highlight */}
+        {/* Downloads */}
         <FadeIn delay={0.5}>
-          <div className="border-l-2 border-[#8B5E3C] pl-8 max-w-2xl mx-auto text-center md:text-left">
-            <p className="font-[family-name:var(--font-playfair)] text-white/70 text-lg italic leading-relaxed">
-              &ldquo;Łączę klasyczną wiedzę TCM z praktyką codziennej kuchni. Bez restrykcji. Bez diet cud. Z uważnością i spokojem.&rdquo;
+          <div className="border border-white/15 bg-white/[0.02] p-8 md:p-10 max-w-3xl mx-auto text-center">
+            <p className="font-[family-name:var(--font-cinzel)] text-[#FAF7F2] text-xs tracking-[0.3em] uppercase mb-4">
+              Pliki do pobrania
             </p>
-            <p className="font-[family-name:var(--font-cinzel)] text-[#FAF7F2]/60 text-xs tracking-[0.25em] uppercase mt-4">
-              Iwona Kowalska
+            <p className="font-[family-name:var(--font-playfair)] text-white/65 italic mb-8">
+              Podstawy odżywiania wg 5 przemian
             </p>
+            <a
+              href="/downloads/podstawy-odzywiania-wg-5-przemian-2.pdf"
+              download
+              className="inline-flex items-center gap-3 font-[family-name:var(--font-cinzel)] text-xs tracking-[0.2em] uppercase px-8 py-4 border border-[#8B5E3C] text-[#FAF7F2] hover:bg-[#8B5E3C] hover:text-white transition-all duration-300"
+            >
+              Pobierz PDF
+            </a>
           </div>
         </FadeIn>
 

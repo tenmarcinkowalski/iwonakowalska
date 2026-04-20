@@ -49,10 +49,10 @@ export default function Footer() {
             </p>
             <div className="flex flex-col gap-2">
               <a
-                href="mailto:kontakt@iwonakowalska.com"
+                href="mailto:terapeuta.tcm@gmail.com"
                 className="font-[family-name:var(--font-playfair)] text-white/50 text-sm hover:text-white/80 transition-colors"
               >
-                kontakt@iwonakowalska.com
+                terapeuta.tcm@gmail.com
               </a>
               <p className="font-[family-name:var(--font-playfair)] text-white/40 text-xs mt-2">
                 Pon–Pt: 9:00–19:00
